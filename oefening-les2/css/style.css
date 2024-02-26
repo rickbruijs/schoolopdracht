@@ -136,18 +136,15 @@ footer{
   width: 2em;
   height: 2em;
   display: inline-block; 
-  mask: url('css/Frame.svg'); background-size: contain; background-position: center; background-repeat: no-repeat;
-  background-color: black;
+  /* mask: url('../img/user-solid.svg') no-repeat center/contain;  */
+  /* -webkit-mask-image: url('../img/user-solid.svg') no-repeat center/contain; */
+
+  background-image: url('../img/user-solid.svg');
+
+  /* background-size: contain; background-position: center; background-repeat: no-repeat; */
+  /* background-color: black; */
 
   flex-shrink: 0; flex: 1; 
-}
-
-.btn-add .plus-icon{
-  width: 2em;
-  height: 2em;
-  display: inline-block;
-  mask: url('css/Frame.svg'); background-size: contain; background-position: center; background-repeat: no-repeat;
-  background-color: black; flex-shrink: 0; flex: 1; 
 }
 
 .notes-container{
