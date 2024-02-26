@@ -136,7 +136,7 @@ footer{
   width: 2em;
   height: 2em;
   display: inline-block; 
-  mask: url('../img/Vector.svg'); background-size: contain; background-position: center; background-repeat: no-repeat;
+  mask: url('css/Frame.svg'); background-size: contain; background-position: center; background-repeat: no-repeat;
   background-color: black;
 
   flex-shrink: 0; flex: 1; 
@@ -146,7 +146,7 @@ footer{
   width: 2em;
   height: 2em;
   display: inline-block;
-  mask: url('frame.svg'); background-size: contain; background-position: center; background-repeat: no-repeat;
+  mask: url('css/Frame.svg'); background-size: contain; background-position: center; background-repeat: no-repeat;
   background-color: black; flex-shrink: 0; flex: 1; 
 }
 
